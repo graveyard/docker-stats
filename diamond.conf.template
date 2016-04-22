@@ -103,6 +103,7 @@ enabled = False
 [[DockerStatsCollector]]
 enabled = True
 name_from_env = MARATHON_APP_ID
+client_url = <DOCKER_HOST>
 
 ################################################################################
 ### Options for logging
